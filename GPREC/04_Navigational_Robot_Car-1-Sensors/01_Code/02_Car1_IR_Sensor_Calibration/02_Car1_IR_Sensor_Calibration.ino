@@ -1,9 +1,9 @@
 void setup() {
-  pinMode(2,INPUT);
+  pinMode(A1,INPUT);
   Serial.begin(9600);
 }
 
 void loop() {
-  int touch = digitalRead(2);
-  Serial.println(touch);
+  int data = digitalRead(A1);
+  Serial.println(data);
 }
