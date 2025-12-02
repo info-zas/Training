@@ -126,9 +126,11 @@ void loop() {
 //Serial.print("\t");
 //Serial.print(ticksRight);
 //Serial.print("\t");
+Serial.print("Error:");
 Serial.print(error);
-Serial.print("\t");
+Serial.print(",PWM-Right:");
 Serial.println(pwmRight);
+
 
   delay(100);
 }
