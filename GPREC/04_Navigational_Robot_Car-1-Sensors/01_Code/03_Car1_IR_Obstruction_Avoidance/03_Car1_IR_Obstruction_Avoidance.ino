@@ -35,7 +35,14 @@ void loop() {
   
   else if ((ir_c1 == 1 and ir_c2 == 1) or (ir_c1 == 1 and ir_c2 == 0) or (ir_c1 == 0 and ir_c2 == 1)){
     Stop();
+    delay(500);
+    backward();
+    delay(500);
+    turnRight();
+    delay(500);
   }
+
+  delay(100);
   
   
 }
